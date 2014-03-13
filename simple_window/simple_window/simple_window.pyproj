@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{d13c9d20-3587-48c6-848b-63def8b2f9c8}</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>window.py</StartupFile>
+    <StartupFile>window3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="window.py" />
+    <Compile Include="window1.py" />
+    <Compile Include="window2.py" />
+    <Compile Include="window3.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
